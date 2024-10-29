@@ -1,0 +1,35 @@
+.titre1 {
+background-color:#CCC ;
+text-align: center;
+border: 1px solid red;
+}
+.box {
+background-color:#CCC ;  
+}
+.box1 {
+background-color:#CCC;
+margin: 2rem;
+}
+.box2 {
+background-color:#CCC;
+padding: 2rem;
+}
+.box3 {
+background-color:#CCC;
+padding: 2rem;
+border : 5px solid red;
+}
+.box4 {
+background-color:#CCC;
+padding: 2rem;
+border : 5px solid red;
+width: 500px;
+}
+.box5 {
+background-color:#CCC;
+background-color:#CCC;
+padding: 2rem;
+border : 5px solid red;
+width: 500px;
+box-sizing: border-box;
+}
