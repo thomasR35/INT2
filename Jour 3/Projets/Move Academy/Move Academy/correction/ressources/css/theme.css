@@ -1,0 +1,175 @@
+/*NAVBAR*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7e4a7c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav li a {
+  display: flex;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.6rem;
+  font-size: 2rem;
+}
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: #7e4a7c;
+  text-decoration: none;
+}
+/*TITLEZ AND MORE*/
+h1 {
+  font-size: 5rem;
+  color: #7e4a7c;
+  font-family: Economica;
+  text-align: center;
+}
+h2 {
+  font-size: 4rem;
+  color: #b878b5;
+  font-family: Economica;
+  text-align: left;
+}
+h3 {
+  color: #7e4a7c;
+  font-family: Economica;
+}
+.more {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: Economica;
+  font-weight: bold;
+  text-align: center;
+  background-color: #7e4a7c;
+  padding: 1rem;
+  margin: 1rem;
+  width: 80px;
+}
+.itaVio {
+  font-style: italic;
+  font-weight: bold;
+  color: #b878b5;
+}
+/*SECTIONZ*/
+.cards {
+  display: flex;
+}
+.cards > * {
+  flex: 1;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.section1 article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  padding: 1rem;
+}
+.listWhy {
+  line-height: 4rem;
+}
+.listWhy li {
+  list-style-type: none;
+  list-style-image: url(../images/puce-fleche.png);
+}
+.section2 {
+  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat (2, 1fr);
+}
+.section2 article {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.imgS2 {
+  height: auto;
+  padding: 1em;
+}
+/*TABLE*/
+table,
+th,
+td {
+  border: 1px solid #b878b5;
+  border-collapse: collapse;
+  padding: 1em;
+  text-align: center;
+}
+th {
+  background-color: #7e4a7c;
+  color: #ffffff;
+}
+.tClasses tbody tr td:first-child {
+  font-weight: bold;
+}
+.tClasses td:empty {
+  background-color: #ffeefe;
+}
+/*FORMULAIRE*/
+form {
+  padding: 1em;
+  border: solid 1px #7e4a7c;
+}
+fieldset {
+  padding: 2em;
+  margin: 1em;
+  border: none;
+  background-color: #ffeefe;
+}
+.field1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.field1 input {
+  width: 30%;
+}
+.field2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.field2 input {
+  width: 10%;
+}
+label {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 2.5rem;
+  font-family: Economica;
+  font-weight: bold;
+  color: #7e4a7c;
+  background-color: #ffeefe;
+}
+.submit-button {
+  display: block;
+  align-items: center;
+  padding: 0.2em 0.5em;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  font-family: Economica;
+  font-weight: bold;
+  color: #fff;
+  background-color: #7e4a7c;
+  border: 1px solid #7e4a7c;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #fff;
+  color: #7e4a7c;
+  border: 1px solid #7e4a7c;
+}
+/*FOOTER*/

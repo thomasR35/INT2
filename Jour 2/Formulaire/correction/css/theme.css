@@ -33,20 +33,7 @@ label {
   border-radius: 0.5em;
   padding: 1em;
 }
-input,
-select,
-textarea {
-  border: 1px solid #ccc;
-  border-radius: 0.5em;
-  background-color: #fff;
-  color: #333;
-  font-size: 1.6rem;
-  padding: 0.5em 1em;
-}
-select,
-textarea {
-  width: 100%;
-}
+
 .submit-button {
   display: inline-block;
   padding: 1em 2em;
