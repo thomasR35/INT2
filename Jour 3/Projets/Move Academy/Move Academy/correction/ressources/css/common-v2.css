@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*TOOLS*/
 * {
   box-sizing: border-box;
@@ -115,3 +116,122 @@ VARIOUS
   background-color: #ddd;
   border: 1px solid #bbb;
 }
+=======
+/*TOOLS*/
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+/* Le corps du document */
+body {
+  font-family: Open Sans;
+  color: #363636;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Le titre principal d'un flux */
+h1 {
+  font-size: 5rem;
+  color: #7e4a7c;
+  font-family: Economica;
+}
+
+/* Le titre de second niveau  */
+h2 {
+  font-size: 4rem;
+  color: #b878b5;
+  font-family: Economica;
+}
+
+/* Le titre de troisème niveau */
+h3 {
+  font-size: 3rem;
+}
+
+/* Les liens */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+/*CONTENU PRINCIPAL*/
+main {
+  padding: 2em;
+}
+article {
+  background-color: #fff;
+  padding: 1em;
+}
+
+/*CONTAINER*/
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* *****************************************************************
+MAIN LAYOUT
+***************************************************************** */
+
+/* L'entête de la page */
+.header {
+  text-align: center;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 1em;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header h1 {
+  margin: 0;
+}
+/* Le pied de page */
+.footer {
+  text-align: center;
+  background-color: #444;
+  padding: 2em;
+  color: #fff;
+}
+
+/* *****************************************************************
+VARIOUS
+***************************************************************** */
+
+/* Utile pour mettre en évidence un parent */
+.parent {
+  border: 1px dashed #ffffff;
+}
+.card,
+.cards > * {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.gutter > * {
+  margin: 1em;
+}
+.code {
+  padding: 0.5em;
+  font-family: Monaco, monospace;
+  font-size: 1.4rem;
+  color: black;
+  background-color: #ddd;
+  border: 1px solid #bbb;
+}
+>>>>>>> b97deba3a2cb474e34a5f7a9d29682069f2a870d
